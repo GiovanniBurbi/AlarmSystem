@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements">
+  <uml:Model xmi:id="_rqYXMJr8Ee2glqytHIu9Cw" name="embeddedSystems">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_rwDhYJr8Ee2glqytHIu9Cw">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_rwe_MJr8Ee2glqytHIu9Cw">
+      <importedPackage xmi:type="uml:Package" href="pathmap://SysML16_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_qttjgJsQEe2e1dZhh4UKIw" name="Requirements">
+      <packagedElement xmi:type="uml:Class" xmi:id="_5EWA8JsHEe2-1pkWABIzdA" name="Home Security Specification">
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_6GIfAJsQEe2e1dZhh4UKIw" name="Structural Requirements">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_Hkgy0JvZEe2sZvZxpaqJZw" name="Control Panel"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_VNtzcJvZEe2sZvZxpaqJZw" name="Keypad"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_1HmWIJvZEe2sZvZxpaqJZw" name="Siren"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_78FhsJvZEe2sZvZxpaqJZw" name="Control Unit"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_TJHB8JvaEe2sZvZxpaqJZw" name="Elements"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_53DDoJvgEe2sZvZxpaqJZw" name="Control Panel LEDs"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_gJhXcJyOEe2Y3qHs8s61vQ" name="Associate Number"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_jX2BkKCUEe2PQLGvkuL8iA" name="Antenna"/>
+        </nestedClassifier>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_KccmIJsREe2e1dZhh4UKIw" name="Non-Functional Requirements">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_VjGfkJsTEe2_7rdKuXuV3g" name="Arming Delay Timing"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_mAv9sJvXEe2sZvZxpaqJZw" name="Door Delay Timing"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_6TYJYJvXEe2sZvZxpaqJZw" name="Alarm Firing Timing"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_HALMIJvYEe2sZvZxpaqJZw" name="App notification Timing"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_RZctEJvYEe2sZvZxpaqJZw" name="Verification Call Timing"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_bkPGEJvYEe2sZvZxpaqJZw" name="Dispatchment Timing"/>
+        </nestedClassifier>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_UcakUJsTEe2_7rdKuXuV3g" name="Connectivity"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_9GLUEJvKEe2sZvZxpaqJZw" name="How to Arm / DIsarm"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_CuL-EJvOEe2sZvZxpaqJZw" name="Change Code"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_XjpxEJvOEe2sZvZxpaqJZw" client="_9GLUEJvKEe2sZvZxpaqJZw" supplier="_CuL-EJvOEe2sZvZxpaqJZw"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_0BTLgJvQEe2sZvZxpaqJZw" name="Alarm Modes"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_0K9L4JvSEe2sZvZxpaqJZw" name="Alarm Allert"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_JAjFQJvUEe2sZvZxpaqJZw" name="Watchword"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_g9BQAJvVEe2sZvZxpaqJZw" name="No response after alarm firing"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_Q3YsYJvZEe2sZvZxpaqJZw" name="" client="_UcakUJsTEe2_7rdKuXuV3g" supplier="_Hkgy0JvZEe2sZvZxpaqJZw"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_MWrPYJvbEe2sZvZxpaqJZw" name="Motion Sensing"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_am3-kJvbEe2sZvZxpaqJZw" name="Windows &amp; Doors Sensing"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ChVwwJsREe2e1dZhh4UKIw" name="Behavioural Requirements">
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_qQwJYJvOEe2sZvZxpaqJZw" name="Arming Delay"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_93nMgJvUEe2sZvZxpaqJZw" name="Guards Dispatchment"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_U81w0JsTEe2_7rdKuXuV3g" name="Arm / Disarm"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_XgHC8JvQEe2sZvZxpaqJZw" name="Arming Mode Selection"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_fXEQwJvTEe2sZvZxpaqJZw" name="False Allarm Verification">
+          <ownedRule xmi:type="uml:Constraint" xmi:id="_vL-G8KO1Ee2r_60dRCK1ZA" name="The alarm must be triggered">
+            <specification xmi:type="uml:OpaqueExpression" xmi:id="_vL-uAKO1Ee2r_60dRCK1ZA" name="constraintSpec">
+              <language>OCL</language>
+              <body>true</body>
+            </specification>
+          </ownedRule>
+        </nestedClassifier>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_jhZ_sJvSEe2sZvZxpaqJZw" name="Alarm Trigger" visibility="public"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_eP_BAJvgEe2sZvZxpaqJZw" name="Open/Close Feedback"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_wNvUsKOvEe2r_60dRCK1ZA" name="Intrusion detection"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_DIgQoJvQEe2sZvZxpaqJZw" name="Door opening"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_INzt0JvhEe2sZvZxpaqJZw" name="LEDs state"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_a9_2YJvhEe2sZvZxpaqJZw" name="" client="_INzt0JvhEe2sZvZxpaqJZw" supplier="_53DDoJvgEe2sZvZxpaqJZw"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_Pl8qgKOsEe2r_60dRCK1ZA" name="" client="_9GLUEJvKEe2sZvZxpaqJZw" supplier="_U81w0JsTEe2_7rdKuXuV3g"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_aby9QKOtEe2r_60dRCK1ZA" name="Refine25" client="_qttjgJsQEe2e1dZhh4UKIw" supplier="_qttjgJsQEe2e1dZhh4UKIw"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_2BDCAKOtEe2r_60dRCK1ZA" name="" client="_0BTLgJvQEe2sZvZxpaqJZw" supplier="_XgHC8JvQEe2sZvZxpaqJZw"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="__Z4ZoKOtEe2r_60dRCK1ZA" name="" client="_JAjFQJvUEe2sZvZxpaqJZw" supplier="_fXEQwJvTEe2sZvZxpaqJZw"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_AlMWMKOuEe2r_60dRCK1ZA" name="" client="_g9BQAJvVEe2sZvZxpaqJZw" supplier="_fXEQwJvTEe2sZvZxpaqJZw"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_OyY0sKOuEe2r_60dRCK1ZA" name="" client="_0K9L4JvSEe2sZvZxpaqJZw" supplier="_jhZ_sJvSEe2sZvZxpaqJZw"/>
+      <packagedElement xmi:type="uml:Constraint" xmi:id="_7Nk70KOuEe2r_60dRCK1ZA" name="Constraint25" constrainedElement="_jhZ_sJvSEe2sZvZxpaqJZw _wNvUsKOvEe2r_60dRCK1ZA">
+        <specification xmi:type="uml:OpaqueExpression" xmi:id="_7NmJ8KOuEe2r_60dRCK1ZA" name="constraintSpec">
+          <language>OCL</language>
+          <body>true</body>
+        </specification>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_JmoFAKOvEe2r_60dRCK1ZA" name="Alarm signal trasmission"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_eHh9QKOvEe2r_60dRCK1ZA" name="" client="_JmoFAKOvEe2r_60dRCK1ZA" supplier="_jhZ_sJvSEe2sZvZxpaqJZw"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_IthdUKOwEe2r_60dRCK1ZA" name="" client="_MWrPYJvbEe2sZvZxpaqJZw" supplier="_wNvUsKOvEe2r_60dRCK1ZA"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_NAw0IKOwEe2r_60dRCK1ZA" name="" client="_am3-kJvbEe2sZvZxpaqJZw" supplier="_wNvUsKOvEe2r_60dRCK1ZA"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_av1zQKOwEe2r_60dRCK1ZA" name="" client="_am3-kJvbEe2sZvZxpaqJZw" supplier="_eP_BAJvgEe2sZvZxpaqJZw"/>
+      <packagedElement xmi:type="uml:Constraint" xmi:id="_RcDE8KO2Ee2r_60dRCK1ZA" name="Alarm must be confirmed" constrainedElement="_93nMgJvUEe2sZvZxpaqJZw">
+        <specification xmi:type="uml:OpaqueExpression" xmi:id="_RcETEKO2Ee2r_60dRCK1ZA" name="constraintSpec">
+          <language>OCL</language>
+          <body>true</body>
+        </specification>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_6td54JsSEe2_7rdKuXuV3g" name="Use Cases">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_L9aw4JyWEe2Y3qHs8s61vQ" annotatedElement="_3OFfQJyOEe2Y3qHs8s61vQ">
+        <body>Call the homeowner's reference number</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_pX21oJyWEe2Y3qHs8s61vQ" annotatedElement="_-AVIwJyGEe2bEvs9CSuWXQ">
+        <body>The control unit send the message &#xD;
+to the security company</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_dJhbEJyXEe2Y3qHs8s61vQ" annotatedElement="_55DZsJwrEe2xQt4ldmY7dw">
+        <body>On the app</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_jd2f4JyXEe2Y3qHs8s61vQ" annotatedElement="_osw58JyFEe2oPrrvqhFnGQ _kpOl8JwrEe2xQt4ldmY7dw _sf2mgJyEEe2oPrrvqhFnGQ _YCyC0JwrEe2xQt4ldmY7dw _E93K8JwsEe2xQt4ldmY7dw">
+        <body>On the app and &#xD;
+on the control panel</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_UiT4MJyYEe2Y3qHs8s61vQ" annotatedElement="_0S2mMJwrEe2xQt4ldmY7dw">
+        <body>Modes:&#xD;
+Home or Away</body>
+      </ownedComment>
+      <ownedRule xmi:type="uml:Constraint" xmi:id="_CUThkJyWEe2Y3qHs8s61vQ" name="Verification Constraint" constrainedElement="_OhdDoJyFEe2oPrrvqhFnGQ">
+        <specification xmi:type="uml:OpaqueExpression" xmi:id="_CUUIoJyWEe2Y3qHs8s61vQ" name="constraintSpec">
+          <language>OCL</language>
+          <body>true</body>
+        </specification>
+      </ownedRule>
+      <ownedRule xmi:type="uml:Constraint" xmi:id="_-31IwJyXEe2Y3qHs8s61vQ" name="Disarm Constraint" constrainedElement="_sf2mgJyEEe2oPrrvqhFnGQ _1KlskJyFEe2oPrrvqhFnGQ">
+        <specification xmi:type="uml:OpaqueExpression" xmi:id="_-32W4JyXEe2Y3qHs8s61vQ" name="constraintSpec">
+          <language>OCL</language>
+          <body>true</body>
+        </specification>
+      </ownedRule>
+      <ownedRule xmi:type="uml:Constraint" xmi:id="_JmXIAJyYEe2Y3qHs8s61vQ" name="Change Code Constraint" constrainedElement="_kpOl8JwrEe2xQt4ldmY7dw">
+        <specification xmi:type="uml:OpaqueExpression" xmi:id="_JmXvEJyYEe2Y3qHs8s61vQ" name="constraintSpec">
+          <language>OCL</language>
+          <body>true</body>
+        </specification>
+      </ownedRule>
+      <ownedRule xmi:type="uml:Constraint" xmi:id="_kqTPcJyYEe2Y3qHs8s61vQ" name="AlarmConstraint" constrainedElement="_-AVIwJyGEe2bEvs9CSuWXQ _ABAcgJyGEe2oPrrvqhFnGQ">
+        <specification xmi:type="uml:OpaqueExpression" xmi:id="_kqT2gJyYEe2Y3qHs8s61vQ" name="constraintSpec">
+          <language>OCL</language>
+          <body>true</body>
+        </specification>
+      </ownedRule>
+      <ownedRule xmi:type="uml:Constraint" xmi:id="_2MyOwJyYEe2Y3qHs8s61vQ" name="NotificationConstraint" constrainedElement="_55DZsJwrEe2xQt4ldmY7dw">
+        <specification xmi:type="uml:OpaqueExpression" xmi:id="_2My10JyYEe2Y3qHs8s61vQ" name="constraintSpec">
+          <language>OCL</language>
+          <body>true</body>
+        </specification>
+      </ownedRule>
+      <ownedRule xmi:type="uml:Constraint" xmi:id="_K0Pa8JyZEe2Y3qHs8s61vQ" name="DispatchmentConstraint" constrainedElement="_bk5r0JyFEe2oPrrvqhFnGQ">
+        <specification xmi:type="uml:OpaqueExpression" xmi:id="_K0Pa8ZyZEe2Y3qHs8s61vQ" name="constraintSpec">
+          <language>OCL</language>
+          <body>true</body>
+        </specification>
+      </ownedRule>
+      <ownedRule xmi:type="uml:Constraint" xmi:id="_ZPeVcJyZEe2Y3qHs8s61vQ" name="CallConstraint" constrainedElement="_3OFfQJyOEe2Y3qHs8s61vQ">
+        <specification xmi:type="uml:OpaqueExpression" xmi:id="_ZPe8gJyZEe2Y3qHs8s61vQ" name="constraintSpec">
+          <language>OCL</language>
+          <body>true</body>
+        </specification>
+      </ownedRule>
+      <packagedElement xmi:type="uml:Actor" xmi:id="_E9T0AJr9Ee2glqytHIu9Cw" name="Burglar"/>
+      <packagedElement xmi:type="uml:Actor" xmi:id="_G79_cJsFEe2-1pkWABIzdA" name="Security Personnel"/>
+      <packagedElement xmi:type="uml:Actor" xmi:id="_JCZgcJsFEe2-1pkWABIzdA" name="Police">
+        <generalization xmi:type="uml:Generalization" xmi:id="_rqbrcJsFEe2-1pkWABIzdA" general="_G79_cJsFEe2-1pkWABIzdA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Actor" xmi:id="_MjCVoJsFEe2-1pkWABIzdA" name="Private Security Guard">
+        <generalization xmi:type="uml:Generalization" xmi:id="_qeJegJsFEe2-1pkWABIzdA" general="_G79_cJsFEe2-1pkWABIzdA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_8R7G0JwxEe2jt4eDJ7FCww" name="Alarm System">
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_YCyC0JwrEe2xQt4ldmY7dw" name="Arm Alarm">
+          <include xmi:type="uml:Include" xmi:id="_s_EUQJyTEe2Y3qHs8s61vQ" addition="_wIeTAJyEEe2oPrrvqhFnGQ"/>
+          <include xmi:type="uml:Include" xmi:id="_vfY78JyTEe2Y3qHs8s61vQ" addition="_0S2mMJwrEe2xQt4ldmY7dw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_kpOl8JwrEe2xQt4ldmY7dw" name="Change Code">
+          <include xmi:type="uml:Include" xmi:id="_qeiRMJyTEe2Y3qHs8s61vQ" addition="_wIeTAJyEEe2oPrrvqhFnGQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_E93K8JwsEe2xQt4ldmY7dw" name="Visualize open windows and doors"/>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_55DZsJwrEe2xQt4ldmY7dw" name="Receive intrusion notification" visibility="protected"/>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_0S2mMJwrEe2xQt4ldmY7dw" name="Select Mode"/>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_sf2mgJyEEe2oPrrvqhFnGQ" name="Disarm Alarm">
+          <include xmi:type="uml:Include" xmi:id="_rblvUJyTEe2Y3qHs8s61vQ" addition="_wIeTAJyEEe2oPrrvqhFnGQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_wIeTAJyEEe2oPrrvqhFnGQ" name="Input code"/>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_OhdDoJyFEe2oPrrvqhFnGQ" name="Verify False alarm">
+          <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_8GKPMJyTEe2Y3qHs8s61vQ" name="ExtensionPoint1"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_bk5r0JyFEe2oPrrvqhFnGQ" name="Dispatch guards"/>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_he_EoJyFEe2oPrrvqhFnGQ" name="Confirm watchword"/>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_osw58JyFEe2oPrrvqhFnGQ" name="Identify system faults"/>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_1KlskJyFEe2oPrrvqhFnGQ" name="Detect intrusions">
+          <include xmi:type="uml:Include" xmi:id="_EaHe4JyTEe2Y3qHs8s61vQ" addition="_ABAcgJyGEe2oPrrvqhFnGQ"/>
+          <include xmi:type="uml:Include" xmi:id="_FRdWkJyTEe2Y3qHs8s61vQ" addition="_-AVIwJyGEe2bEvs9CSuWXQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_3-2j8JyFEe2oPrrvqhFnGQ" name="Detect windows/doors opening">
+          <generalization xmi:type="uml:Generalization" xmi:id="_uYZuoJynEe29HaI4lX0Xgw" general="_1KlskJyFEe2oPrrvqhFnGQ"/>
+          <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_bfdCwJyTEe2Y3qHs8s61vQ" name="ExtensionPoint1"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_7fkRoJyFEe2oPrrvqhFnGQ" name="Motion detection">
+          <generalization xmi:type="uml:Generalization" xmi:id="_tGuEUJynEe29HaI4lX0Xgw" general="_1KlskJyFEe2oPrrvqhFnGQ"/>
+          <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_cmVyUJyTEe2Y3qHs8s61vQ" name="ExtensionPoint1"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_ABAcgJyGEe2oPrrvqhFnGQ" name="Sound the siren "/>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_-AVIwJyGEe2bEvs9CSuWXQ" name="Send alarm signal"/>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_3OFfQJyOEe2Y3qHs8s61vQ" name="Call house owner">
+          <extend xmi:type="uml:Extend" xmi:id="_8GJoIJyTEe2Y3qHs8s61vQ" extendedCase="_OhdDoJyFEe2oPrrvqhFnGQ" extensionLocation="_8GKPMJyTEe2Y3qHs8s61vQ"/>
+          <include xmi:type="uml:Include" xmi:id="_6cdGcJyTEe2Y3qHs8s61vQ" addition="_he_EoJyFEe2oPrrvqhFnGQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Constraint" xmi:id="_7A9sQJyUEe2Y3qHs8s61vQ" name="Dispatch Constraint" constrainedElement="_bk5r0JyFEe2oPrrvqhFnGQ">
+          <specification xmi:type="uml:OpaqueExpression" xmi:id="_7A_hcJyUEe2Y3qHs8s61vQ" name="constraintSpec">
+            <language>OCL</language>
+            <body>True</body>
+          </specification>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Actor" xmi:id="_PDIicJyHEe2bEvs9CSuWXQ" name="Security company"/>
+      <packagedElement xmi:type="uml:Actor" xmi:id="_ZbwNAJyQEe2Y3qHs8s61vQ" name="House owner"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_T8jugJySEe2Y3qHs8s61vQ" memberEnd="_T8onAJySEe2Y3qHs8s61vQ _T8pOEJySEe2Y3qHs8s61vQ">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_T8n_8JySEe2Y3qHs8s61vQ" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_T8n_8ZySEe2Y3qHs8s61vQ" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_T8onAJySEe2Y3qHs8s61vQ" name="visualize open windows and doors" type="_E93K8JwsEe2xQt4ldmY7dw" association="_T8jugJySEe2Y3qHs8s61vQ"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_T8pOEJySEe2Y3qHs8s61vQ" name="house owner" type="_ZbwNAJyQEe2Y3qHs8s61vQ" association="_T8jugJySEe2Y3qHs8s61vQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_WWmIAJySEe2Y3qHs8s61vQ" memberEnd="_WWmvEZySEe2Y3qHs8s61vQ _WWmvEpySEe2Y3qHs8s61vQ">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WWmIAZySEe2Y3qHs8s61vQ" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WWmvEJySEe2Y3qHs8s61vQ" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_WWmvEZySEe2Y3qHs8s61vQ" name="arm alarm" type="_YCyC0JwrEe2xQt4ldmY7dw" association="_WWmIAJySEe2Y3qHs8s61vQ"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_WWmvEpySEe2Y3qHs8s61vQ" name="house owner" type="_ZbwNAJyQEe2Y3qHs8s61vQ" association="_WWmIAJySEe2Y3qHs8s61vQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_XYb_gJySEe2Y3qHs8s61vQ" memberEnd="_XYcmkpySEe2Y3qHs8s61vQ _XYcmk5ySEe2Y3qHs8s61vQ">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_XYcmkJySEe2Y3qHs8s61vQ" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_XYcmkZySEe2Y3qHs8s61vQ" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_XYcmkpySEe2Y3qHs8s61vQ" name="disarm alarm" type="_sf2mgJyEEe2oPrrvqhFnGQ" association="_XYb_gJySEe2Y3qHs8s61vQ"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_XYcmk5ySEe2Y3qHs8s61vQ" name="house owner" type="_WWmIAJySEe2Y3qHs8s61vQ" association="_XYb_gJySEe2Y3qHs8s61vQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_YdI9wJySEe2Y3qHs8s61vQ" memberEnd="_YdJk0pySEe2Y3qHs8s61vQ _YdKL4JySEe2Y3qHs8s61vQ">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YdJk0JySEe2Y3qHs8s61vQ" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YdJk0ZySEe2Y3qHs8s61vQ" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_YdJk0pySEe2Y3qHs8s61vQ" name="identify system faults" type="_osw58JyFEe2oPrrvqhFnGQ" association="_YdI9wJySEe2Y3qHs8s61vQ"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_YdKL4JySEe2Y3qHs8s61vQ" name="house owner" type="_ZbwNAJyQEe2Y3qHs8s61vQ" association="_YdI9wJySEe2Y3qHs8s61vQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_d4mg4JySEe2Y3qHs8s61vQ" memberEnd="_d4nvAZySEe2Y3qHs8s61vQ _d4nvApySEe2Y3qHs8s61vQ">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_d4nH8JySEe2Y3qHs8s61vQ" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_d4nvAJySEe2Y3qHs8s61vQ" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_d4nvAZySEe2Y3qHs8s61vQ" name="receive intrusion notification" type="_55DZsJwrEe2xQt4ldmY7dw" association="_d4mg4JySEe2Y3qHs8s61vQ"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_d4nvApySEe2Y3qHs8s61vQ" name="house owner" type="_ZbwNAJyQEe2Y3qHs8s61vQ" association="_d4mg4JySEe2Y3qHs8s61vQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_hYERYJySEe2Y3qHs8s61vQ" memberEnd="_hYE4cpySEe2Y3qHs8s61vQ _hYE4c5ySEe2Y3qHs8s61vQ">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hYE4cJySEe2Y3qHs8s61vQ" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hYE4cZySEe2Y3qHs8s61vQ" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_hYE4cpySEe2Y3qHs8s61vQ" name="change code" type="_kpOl8JwrEe2xQt4ldmY7dw" association="_hYERYJySEe2Y3qHs8s61vQ"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_hYE4c5ySEe2Y3qHs8s61vQ" name="house owner" type="_ZbwNAJyQEe2Y3qHs8s61vQ" association="_hYERYJySEe2Y3qHs8s61vQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_iX6k0JySEe2Y3qHs8s61vQ" memberEnd="_iX7y8pySEe2Y3qHs8s61vQ _iX7y85ySEe2Y3qHs8s61vQ">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_iX7y8JySEe2Y3qHs8s61vQ" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_iX7y8ZySEe2Y3qHs8s61vQ" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_iX7y8pySEe2Y3qHs8s61vQ" name="detect intrusions" type="_1KlskJyFEe2oPrrvqhFnGQ" association="_iX6k0JySEe2Y3qHs8s61vQ"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_iX7y85ySEe2Y3qHs8s61vQ" type="_ZbwNAJyQEe2Y3qHs8s61vQ" association="_iX6k0JySEe2Y3qHs8s61vQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_sZzggJySEe2Y3qHs8s61vQ" memberEnd="_sZ1VsZySEe2Y3qHs8s61vQ _sZ18wJySEe2Y3qHs8s61vQ">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_sZ0uoJySEe2Y3qHs8s61vQ" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_sZ1VsJySEe2Y3qHs8s61vQ" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_sZ1VsZySEe2Y3qHs8s61vQ" name="detect intrusions" type="_1KlskJyFEe2oPrrvqhFnGQ" association="_sZzggJySEe2Y3qHs8s61vQ"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_sZ18wJySEe2Y3qHs8s61vQ" name="burglar" type="_E9T0AJr9Ee2glqytHIu9Cw" association="_sZzggJySEe2Y3qHs8s61vQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_2VYjYJyTEe2Y3qHs8s61vQ" memberEnd="_2VZKcpyTEe2Y3qHs8s61vQ _2VZxgJyTEe2Y3qHs8s61vQ">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2VZKcJyTEe2Y3qHs8s61vQ" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2VZKcZyTEe2Y3qHs8s61vQ" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_2VZKcpyTEe2Y3qHs8s61vQ" name="verify false alarm" type="_OhdDoJyFEe2oPrrvqhFnGQ" association="_2VYjYJyTEe2Y3qHs8s61vQ"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_2VZxgJyTEe2Y3qHs8s61vQ" name="security company" type="_PDIicJyHEe2bEvs9CSuWXQ" association="_2VYjYJyTEe2Y3qHs8s61vQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_3DEv0JyTEe2Y3qHs8s61vQ" memberEnd="_3DFW4pyTEe2Y3qHs8s61vQ _3DFW45yTEe2Y3qHs8s61vQ">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3DFW4JyTEe2Y3qHs8s61vQ" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3DFW4ZyTEe2Y3qHs8s61vQ" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_3DFW4pyTEe2Y3qHs8s61vQ" name="dispatch guards" type="_bk5r0JyFEe2oPrrvqhFnGQ" association="_3DEv0JyTEe2Y3qHs8s61vQ"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_3DFW45yTEe2Y3qHs8s61vQ" name="security company" type="_PDIicJyHEe2bEvs9CSuWXQ" association="_3DEv0JyTEe2Y3qHs8s61vQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_3yyVgJyTEe2Y3qHs8s61vQ" memberEnd="_3yy8kpyTEe2Y3qHs8s61vQ _3yy8k5yTEe2Y3qHs8s61vQ">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3yy8kJyTEe2Y3qHs8s61vQ" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3yy8kZyTEe2Y3qHs8s61vQ" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_3yy8kpyTEe2Y3qHs8s61vQ" name="dispatch guards" type="_bk5r0JyFEe2oPrrvqhFnGQ" association="_3yyVgJyTEe2Y3qHs8s61vQ"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_3yy8k5yTEe2Y3qHs8s61vQ" name="security personnel" type="_G79_cJsFEe2-1pkWABIzdA" association="_3yyVgJyTEe2Y3qHs8s61vQ"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_LxvioKO4Ee2r_60dRCK1ZA" name="bdd">
+      <packagedElement xmi:type="uml:Class" xmi:id="_hQuqMKOsEe2r_60dRCK1ZA" name="Timer"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_RCnwAKCPEe2PQLGvkuL8iA" name="Alarm System" visibility="private">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_4KTqQKCcEe2PQLGvkuL8iA" name="control unit" type="_jmvWAKCQEe2PQLGvkuL8iA" aggregation="shared" association="_4KROAKCcEe2PQLGvkuL8iA"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_5YmpYqCcEe2PQLGvkuL8iA" name="control panel" type="_grxZsKCQEe2PQLGvkuL8iA" aggregation="shared" association="_5YlbQKCcEe2PQLGvkuL8iA"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_8nQ9waCcEe2PQLGvkuL8iA" name="app" type="_mnz6UKCQEe2PQLGvkuL8iA" aggregation="shared" association="_8nPvoKCcEe2PQLGvkuL8iA"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_9vnF4KCcEe2PQLGvkuL8iA" name="house owner" type="__Ba-8KCPEe2PQLGvkuL8iA" aggregation="shared" association="_9vlQsKCcEe2PQLGvkuL8iA"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_AwFNQaCdEe2PQLGvkuL8iA" name="security company" type="_qc1EEKCQEe2PQLGvkuL8iA" aggregation="shared" association="_AwDYEKCdEe2PQLGvkuL8iA"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_NMQaEqCdEe2PQLGvkuL8iA" name="siren" type="_ol6lwKCQEe2PQLGvkuL8iA" aggregation="shared" association="_NMPzAKCdEe2PQLGvkuL8iA"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_PvMQ4qCdEe2PQLGvkuL8iA" name="sensor" type="_fWELAKCQEe2PQLGvkuL8iA" aggregation="shared" association="_PvLCwKCdEe2PQLGvkuL8iA">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PvM38aCdEe2PQLGvkuL8iA" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_fmJn4KCwEe2509uF6PnuLA" name="remote controller" type="_e_SW0KCdEe2PQLGvkuL8iA" aggregation="shared" association="_fmGkkKCwEe2509uF6PnuLA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="__Ba-8KCPEe2PQLGvkuL8iA" name="House owner" visibility="public">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_uM_QEqCdEe2PQLGvkuL8iA" name="reference phone number" type="_bPbs0KCQEe2PQLGvkuL8iA" aggregation="composite" association="_uM-B8KCdEe2PQLGvkuL8iA"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_CtFK0aCwEe2509uF6PnuLA" name="remote controller" type="_e_SW0KCdEe2PQLGvkuL8iA" association="_CtCukKCwEe2509uF6PnuLA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_bPbs0KCQEe2PQLGvkuL8iA" name="Reference phone number"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_fWELAKCQEe2PQLGvkuL8iA" name="Sensor"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_grxZsKCQEe2PQLGvkuL8iA" name="Control Panel">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_UvBdYKCcEe2PQLGvkuL8iA" name="keypad" type="_k-cv0KCQEe2PQLGvkuL8iA" aggregation="composite" association="_Uu5hkKCcEe2PQLGvkuL8iA"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_WEy9gaCcEe2PQLGvkuL8iA" name="led" type="_i0RTEKCXEe2PQLGvkuL8iA" aggregation="composite" association="_WExIUKCcEe2PQLGvkuL8iA">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WEzkkaCcEe2PQLGvkuL8iA" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_CUIUwKCvEe2509uF6PnuLA" name="control unit" type="_jmvWAKCQEe2PQLGvkuL8iA" association="_CT1Z0KCvEe2509uF6PnuLA"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_vn2gwKOsEe2r_60dRCK1ZA" name="timer" type="_hQuqMKOsEe2r_60dRCK1ZA" aggregation="composite" association="_vnt94KOsEe2r_60dRCK1ZA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_jmvWAKCQEe2PQLGvkuL8iA" name="Control Unit">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_W8uEAqCcEe2PQLGvkuL8iA" name="antenna" type="_AmSuMKCUEe2PQLGvkuL8iA" aggregation="composite" association="_W8s14KCcEe2PQLGvkuL8iA"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_N--V0aCwEe2509uF6PnuLA" name="security company" type="_qc1EEKCQEe2PQLGvkuL8iA" association="_N-75kKCwEe2509uF6PnuLA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_k-cv0KCQEe2PQLGvkuL8iA" name="Keypad"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_mnz6UKCQEe2PQLGvkuL8iA" name="App"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ol6lwKCQEe2PQLGvkuL8iA" name="Siren"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_qc1EEKCQEe2PQLGvkuL8iA" name="Security Company">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_zKgS8KCdEe2PQLGvkuL8iA" name="security personnel" type="_ubBX8KCQEe2PQLGvkuL8iA" aggregation="shared" association="_zKedwKCdEe2PQLGvkuL8iA">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_zKg6AKCdEe2PQLGvkuL8iA" value="*"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ubBX8KCQEe2PQLGvkuL8iA" name="Security Personnel"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_AmSuMKCUEe2PQLGvkuL8iA" name="Antenna"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_aNLMUKCVEe2PQLGvkuL8iA" name="Infrared Sensor">
+        <generalization xmi:type="uml:Generalization" xmi:id="_a3xZwKCbEe2PQLGvkuL8iA" general="_fWELAKCQEe2PQLGvkuL8iA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_a9vGkKCVEe2PQLGvkuL8iA" name="Magnetic Switch">
+        <generalization xmi:type="uml:Generalization" xmi:id="_bxIqsKCbEe2PQLGvkuL8iA" general="_fWELAKCQEe2PQLGvkuL8iA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_bZBUYKCVEe2PQLGvkuL8iA" name="Motion Sensor">
+        <generalization xmi:type="uml:Generalization" xmi:id="_d3prQKCbEe2PQLGvkuL8iA" general="_fWELAKCQEe2PQLGvkuL8iA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_b1vFkKCVEe2PQLGvkuL8iA" name="Glass Break Detector">
+        <generalization xmi:type="uml:Generalization" xmi:id="_Z4tJcKCbEe2PQLGvkuL8iA" general="_fWELAKCQEe2PQLGvkuL8iA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_i0RTEKCXEe2PQLGvkuL8iA" name="LED" visibility="package"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_e_SW0KCdEe2PQLGvkuL8iA" name="Remote controller"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_Uu5hkKCcEe2PQLGvkuL8iA" memberEnd="_UvBdYKCcEe2PQLGvkuL8iA _UvDSkKCcEe2PQLGvkuL8iA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Uu-aEKCcEe2PQLGvkuL8iA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Uu_BIKCcEe2PQLGvkuL8iA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_UvDSkKCcEe2PQLGvkuL8iA" name="control panel" type="_grxZsKCQEe2PQLGvkuL8iA" association="_Uu5hkKCcEe2PQLGvkuL8iA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_WExIUKCcEe2PQLGvkuL8iA" visibility="protected" memberEnd="_WEy9gaCcEe2PQLGvkuL8iA _WE0LoKCcEe2PQLGvkuL8iA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WEyWcKCcEe2PQLGvkuL8iA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WEy9gKCcEe2PQLGvkuL8iA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_WE0LoKCcEe2PQLGvkuL8iA" name="control panel" type="_grxZsKCQEe2PQLGvkuL8iA" association="_WExIUKCcEe2PQLGvkuL8iA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_W8s14KCcEe2PQLGvkuL8iA" memberEnd="_W8uEAqCcEe2PQLGvkuL8iA _W8vSIKCcEe2PQLGvkuL8iA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_W8uEAKCcEe2PQLGvkuL8iA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_W8uEAaCcEe2PQLGvkuL8iA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_W8vSIKCcEe2PQLGvkuL8iA" name="control unit" type="_jmvWAKCQEe2PQLGvkuL8iA" association="_W8s14KCcEe2PQLGvkuL8iA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_4KROAKCcEe2PQLGvkuL8iA" memberEnd="_4KTqQKCcEe2PQLGvkuL8iA _4KU4YKCcEe2PQLGvkuL8iA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4KTDMKCcEe2PQLGvkuL8iA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4KTDMaCcEe2PQLGvkuL8iA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_4KU4YKCcEe2PQLGvkuL8iA" name="alarm system" type="_RCnwAKCPEe2PQLGvkuL8iA" association="_4KROAKCcEe2PQLGvkuL8iA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_5YlbQKCcEe2PQLGvkuL8iA" memberEnd="_5YmpYqCcEe2PQLGvkuL8iA _5Yn3gaCcEe2PQLGvkuL8iA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5YmpYKCcEe2PQLGvkuL8iA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5YmpYaCcEe2PQLGvkuL8iA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_5Yn3gaCcEe2PQLGvkuL8iA" name="alarm system" type="_RCnwAKCPEe2PQLGvkuL8iA" association="_5YlbQKCcEe2PQLGvkuL8iA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_8nPvoKCcEe2PQLGvkuL8iA" memberEnd="_8nQ9waCcEe2PQLGvkuL8iA _8nSL4KCcEe2PQLGvkuL8iA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8nQWsKCcEe2PQLGvkuL8iA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8nQ9wKCcEe2PQLGvkuL8iA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_8nSL4KCcEe2PQLGvkuL8iA" name="alarm system" type="_RCnwAKCPEe2PQLGvkuL8iA" association="_8nPvoKCcEe2PQLGvkuL8iA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_9vlQsKCcEe2PQLGvkuL8iA" memberEnd="_9vnF4KCcEe2PQLGvkuL8iA _9vns8qCcEe2PQLGvkuL8iA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_9vme0KCcEe2PQLGvkuL8iA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9vme0aCcEe2PQLGvkuL8iA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_9vns8qCcEe2PQLGvkuL8iA" name="alarm system" type="_RCnwAKCPEe2PQLGvkuL8iA" association="_9vlQsKCcEe2PQLGvkuL8iA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_AwDYEKCdEe2PQLGvkuL8iA" memberEnd="_AwFNQaCdEe2PQLGvkuL8iA _AwGbYKCdEe2PQLGvkuL8iA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_AwEmMKCdEe2PQLGvkuL8iA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_AwFNQKCdEe2PQLGvkuL8iA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_AwGbYKCdEe2PQLGvkuL8iA" name="alarm system" type="_RCnwAKCPEe2PQLGvkuL8iA" association="_AwDYEKCdEe2PQLGvkuL8iA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_NMPzAKCdEe2PQLGvkuL8iA" visibility="public" memberEnd="_NMQaEqCdEe2PQLGvkuL8iA _NMRBIqCdEe2PQLGvkuL8iA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_NMQaEKCdEe2PQLGvkuL8iA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NMQaEaCdEe2PQLGvkuL8iA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_NMRBIqCdEe2PQLGvkuL8iA" name="alarm system" type="_RCnwAKCPEe2PQLGvkuL8iA" association="_NMPzAKCdEe2PQLGvkuL8iA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_PvLCwKCdEe2PQLGvkuL8iA" memberEnd="_PvMQ4qCdEe2PQLGvkuL8iA _PvNfAKCdEe2PQLGvkuL8iA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_PvMQ4KCdEe2PQLGvkuL8iA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_PvMQ4aCdEe2PQLGvkuL8iA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_PvNfAKCdEe2PQLGvkuL8iA" name="alarm system" type="_RCnwAKCPEe2PQLGvkuL8iA" association="_PvLCwKCdEe2PQLGvkuL8iA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_UR_tsKCdEe2PQLGvkuL8iA" visibility="public" memberEnd="_USBi4KCdEe2PQLGvkuL8iA _USCJ8KCdEe2PQLGvkuL8iA" navigableOwnedEnd="_USCJ8KCdEe2PQLGvkuL8iA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_USA70KCdEe2PQLGvkuL8iA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_USA70aCdEe2PQLGvkuL8iA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_USBi4KCdEe2PQLGvkuL8iA" name="sensor" type="_fWELAKCQEe2PQLGvkuL8iA" association="_UR_tsKCdEe2PQLGvkuL8iA">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_iV2NgKCeEe2PQLGvkuL8iA" value="*"/>
+        </ownedEnd>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_USCJ8KCdEe2PQLGvkuL8iA" name="control panel" type="_grxZsKCQEe2PQLGvkuL8iA" association="_UR_tsKCdEe2PQLGvkuL8iA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_VejAYKCdEe2PQLGvkuL8iA" memberEnd="_VekOgqCdEe2PQLGvkuL8iA _VelcoKCdEe2PQLGvkuL8iA" navigableOwnedEnd="_VekOgqCdEe2PQLGvkuL8iA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VekOgKCdEe2PQLGvkuL8iA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VekOgaCdEe2PQLGvkuL8iA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_VelcoKCdEe2PQLGvkuL8iA" name="control panel" type="_grxZsKCQEe2PQLGvkuL8iA" association="_VejAYKCdEe2PQLGvkuL8iA"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_VekOgqCdEe2PQLGvkuL8iA" name="siren" type="_ol6lwKCQEe2PQLGvkuL8iA" association="_VejAYKCdEe2PQLGvkuL8iA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_W8IYsKCdEe2PQLGvkuL8iA" memberEnd="_W8Jm0aCdEe2PQLGvkuL8iA _W8Jm0qCdEe2PQLGvkuL8iA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_W8I_wKCdEe2PQLGvkuL8iA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_W8Jm0KCdEe2PQLGvkuL8iA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_W8Jm0aCdEe2PQLGvkuL8iA" name="app" type="_mnz6UKCQEe2PQLGvkuL8iA" association="_W8IYsKCdEe2PQLGvkuL8iA"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_W8Jm0qCdEe2PQLGvkuL8iA" name="control panel" type="_grxZsKCQEe2PQLGvkuL8iA" association="_W8IYsKCdEe2PQLGvkuL8iA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_hzC34KCdEe2PQLGvkuL8iA" memberEnd="_hzEGAaCdEe2PQLGvkuL8iA _hzEtEKCdEe2PQLGvkuL8iA" navigableOwnedEnd="_hzEtEKCdEe2PQLGvkuL8iA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hzDe8KCdEe2PQLGvkuL8iA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hzEGAKCdEe2PQLGvkuL8iA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_hzEGAaCdEe2PQLGvkuL8iA" name="remote controller" type="_e_SW0KCdEe2PQLGvkuL8iA" association="_hzC34KCdEe2PQLGvkuL8iA"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_hzEtEKCdEe2PQLGvkuL8iA" name="control panel" type="_grxZsKCQEe2PQLGvkuL8iA" association="_hzC34KCdEe2PQLGvkuL8iA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_uM-B8KCdEe2PQLGvkuL8iA" memberEnd="_uM_QEqCdEe2PQLGvkuL8iA _uNAeMKCdEe2PQLGvkuL8iA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_uM_QEKCdEe2PQLGvkuL8iA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_uM_QEaCdEe2PQLGvkuL8iA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_uNAeMKCdEe2PQLGvkuL8iA" name="house owner" type="__Ba-8KCPEe2PQLGvkuL8iA" association="_uM-B8KCdEe2PQLGvkuL8iA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_xbU0UKCdEe2PQLGvkuL8iA" memberEnd="_xbWpgKCdEe2PQLGvkuL8iA _xbXQkKCdEe2PQLGvkuL8iA" navigableOwnedEnd="_xbWpgKCdEe2PQLGvkuL8iA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xbWCcKCdEe2PQLGvkuL8iA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xbWCcaCdEe2PQLGvkuL8iA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_xbWpgKCdEe2PQLGvkuL8iA" name="reference phone number" type="_bPbs0KCQEe2PQLGvkuL8iA" association="_xbU0UKCdEe2PQLGvkuL8iA"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_xbXQkKCdEe2PQLGvkuL8iA" name="security company" type="_qc1EEKCQEe2PQLGvkuL8iA" association="_xbU0UKCdEe2PQLGvkuL8iA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_zKedwKCdEe2PQLGvkuL8iA" memberEnd="_zKgS8KCdEe2PQLGvkuL8iA _zKg6AaCdEe2PQLGvkuL8iA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zKfr4KCdEe2PQLGvkuL8iA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zKfr4aCdEe2PQLGvkuL8iA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_zKg6AaCdEe2PQLGvkuL8iA" name="security company" type="_qc1EEKCQEe2PQLGvkuL8iA" association="_zKedwKCdEe2PQLGvkuL8iA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_CT1Z0KCvEe2509uF6PnuLA" memberEnd="_CUIUwKCvEe2509uF6PnuLA _CUL_IKCvEe2509uF6PnuLA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CUFRcKCvEe2509uF6PnuLA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CUF4gKCvEe2509uF6PnuLA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_CUL_IKCvEe2509uF6PnuLA" name="control panel" type="_grxZsKCQEe2PQLGvkuL8iA" association="_CT1Z0KCvEe2509uF6PnuLA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_CtCukKCwEe2509uF6PnuLA" visibility="public" memberEnd="_CtFK0aCwEe2509uF6PnuLA _CtHAAKCwEe2509uF6PnuLA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CtEjwKCwEe2509uF6PnuLA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CtFK0KCwEe2509uF6PnuLA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_CtHAAKCwEe2509uF6PnuLA" name="house owner" type="__Ba-8KCPEe2PQLGvkuL8iA" association="_CtCukKCwEe2509uF6PnuLA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_N-75kKCwEe2509uF6PnuLA" memberEnd="_N--V0aCwEe2509uF6PnuLA _N-_j8aCwEe2509uF6PnuLA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_N-9uwKCwEe2509uF6PnuLA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_N--V0KCwEe2509uF6PnuLA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_N-_j8aCwEe2509uF6PnuLA" name="control unit" type="_jmvWAKCQEe2PQLGvkuL8iA" association="_N-75kKCwEe2509uF6PnuLA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_fmGkkKCwEe2509uF6PnuLA" memberEnd="_fmJn4KCwEe2509uF6PnuLA _fmK2AKCwEe2509uF6PnuLA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_fmJA0KCwEe2509uF6PnuLA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_fmJA0aCwEe2509uF6PnuLA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_fmK2AKCwEe2509uF6PnuLA" name="alarm system" type="_RCnwAKCPEe2PQLGvkuL8iA" association="_fmGkkKCwEe2509uF6PnuLA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_r7KcwKCwEe2509uF6PnuLA" memberEnd="_r7MR8aCwEe2509uF6PnuLA _r7NgEKCwEe2509uF6PnuLA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_r7Lq4KCwEe2509uF6PnuLA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_r7MR8KCwEe2509uF6PnuLA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_r7MR8aCwEe2509uF6PnuLA" name="app" type="_mnz6UKCQEe2PQLGvkuL8iA" association="_r7KcwKCwEe2509uF6PnuLA"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_r7NgEKCwEe2509uF6PnuLA" name="house owner" type="__Ba-8KCPEe2PQLGvkuL8iA" association="_r7KcwKCwEe2509uF6PnuLA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_vnt94KOsEe2r_60dRCK1ZA" memberEnd="_vn2gwKOsEe2r_60dRCK1ZA _vn49AKOsEe2r_60dRCK1ZA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_vnxoQKOsEe2r_60dRCK1ZA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_vnyPUKOsEe2r_60dRCK1ZA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_vn49AKOsEe2r_60dRCK1ZA" name="control panel" type="_grxZsKCQEe2PQLGvkuL8iA" association="_vnt94KOsEe2r_60dRCK1ZA"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_rtU9gJr8Ee2glqytHIu9Cw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_rtbEIJr8Ee2glqytHIu9Cw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_rv6XcJr8Ee2glqytHIu9Cw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_rv6XcZr8Ee2glqytHIu9Cw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//activities"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Activities"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_rv_3AJr8Ee2glqytHIu9Cw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_rv_3AZr8Ee2glqytHIu9Cw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//allocations"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Allocations"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_rwAeEJr8Ee2glqytHIu9Cw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_rwAeEZr8Ee2glqytHIu9Cw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_rwBFIJr8Ee2glqytHIu9Cw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_rwBFIZr8Ee2glqytHIu9Cw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//constraintblocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ConstraintBlocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_rwBFIpr8Ee2glqytHIu9Cw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_rwBFI5r8Ee2glqytHIu9Cw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//deprecatedelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_DeprecatedElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_rwBsMJr8Ee2glqytHIu9Cw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_rwBsMZr8Ee2glqytHIu9Cw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//modelelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ModelElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_rwBsMpr8Ee2glqytHIu9Cw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_rwBsM5r8Ee2glqytHIu9Cw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Ports_u0026Flows"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_rwBsNJr8Ee2glqytHIu9Cw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_rwC6UJr8Ee2glqytHIu9Cw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Requirements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_rwC6UZr8Ee2glqytHIu9Cw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_rwC6Upr8Ee2glqytHIu9Cw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+  </uml:Model>
+  <Requirements:Requirement xmi:id="_5EaSYJsHEe2-1pkWABIzdA" base_NamedElement="_5EWA8JsHEe2-1pkWABIzdA" id="REQ-000" base_Class="_5EWA8JsHEe2-1pkWABIzdA"/>
+  <Requirements:Requirement xmi:id="_6GRo8JsQEe2e1dZhh4UKIw" base_NamedElement="_6GIfAJsQEe2e1dZhh4UKIw" id="REQ-010" base_Class="_6GIfAJsQEe2e1dZhh4UKIw"/>
+  <Requirements:Requirement xmi:id="_Che6sJsREe2e1dZhh4UKIw" base_NamedElement="_ChVwwJsREe2e1dZhh4UKIw" id="REQ-020" base_Class="_ChVwwJsREe2e1dZhh4UKIw"/>
+  <Requirements:Requirement xmi:id="_KcmXIJsREe2e1dZhh4UKIw" base_NamedElement="_KccmIJsREe2e1dZhh4UKIw" id="REQ-030" base_Class="_KccmIJsREe2e1dZhh4UKIw"/>
+  <Requirements:Requirement xmi:id="_UcvUcJsTEe2_7rdKuXuV3g" base_NamedElement="_UcakUJsTEe2_7rdKuXuV3g" id="REQ-012" text="The sensors can be connect using wireless or wired connections." base_Class="_UcakUJsTEe2_7rdKuXuV3g"/>
+  <Requirements:Requirement xmi:id="_U9ClIJsTEe2_7rdKuXuV3g" base_NamedElement="_U81w0JsTEe2_7rdKuXuV3g" id="REQ-021" text="The alarm system can be armed or disarmed either via app, remote control unit or via keypad" base_Class="_U81w0JsTEe2_7rdKuXuV3g"/>
+  <Requirements:Requirement xmi:id="_VjSFwJsTEe2_7rdKuXuV3g" base_NamedElement="_VjGfkJsTEe2_7rdKuXuV3g" id="REQ-031" text="When arming the alarm, there is an exit delay of 1 minute." base_Class="_VjGfkJsTEe2_7rdKuXuV3g"/>
+  <Requirements:Requirement xmi:id="_9GZWgJvKEe2sZvZxpaqJZw" base_NamedElement="_9GLUEJvKEe2sZvZxpaqJZw" id="REQ-022" text="To arm or disarm the allarm, a 6-digit code must be entered on the control device followed by the on/off button" base_Class="_9GLUEJvKEe2sZvZxpaqJZw"/>
+  <Requirements:Requirement xmi:id="_CuOaUJvOEe2sZvZxpaqJZw" base_NamedElement="_CuL-EJvOEe2sZvZxpaqJZw" id="REQ-023" text="It must be possible to change the code from whichever the control device used" base_Class="_CuL-EJvOEe2sZvZxpaqJZw"/>
+  <Requirements:DeriveReqt xmi:id="_Xj0JIJvOEe2sZvZxpaqJZw" base_DirectedRelationship="_XjpxEJvOEe2sZvZxpaqJZw" base_Abstraction="_XjpxEJvOEe2sZvZxpaqJZw"/>
+  <Requirements:Requirement xmi:id="_qQx-kJvOEe2sZvZxpaqJZw" base_NamedElement="_qQwJYJvOEe2sZvZxpaqJZw" id="REQ-024" text="When arming the alarm, there is an exit delay to allow the homeowner to exit." base_Class="_qQwJYJvOEe2sZvZxpaqJZw"/>
+  <Requirements:Requirement xmi:id="_DIjT8JvQEe2sZvZxpaqJZw" base_NamedElement="_DIgQoJvQEe2sZvZxpaqJZw" id="REQ-025" text="When opening the door when the alarm is armed, there is an entry delay during which the homeowner can disarm the alarm, failing to do so will result in the alarm going off." base_Class="_DIgQoJvQEe2sZvZxpaqJZw"/>
+  <Requirements:Requirement xmi:id="_XgKtUJvQEe2sZvZxpaqJZw" base_NamedElement="_XgHC8JvQEe2sZvZxpaqJZw" id="REQ-026" text="Before arming the alarm, the house owner can choose the mode : &#xD;&#xA;Home or Away" base_Class="_XgHC8JvQEe2sZvZxpaqJZw"/>
+  <Requirements:Requirement xmi:id="_0BW14JvQEe2sZvZxpaqJZw" base_NamedElement="_0BTLgJvQEe2sZvZxpaqJZw" id="REQ-027" text="Home mode: The arming activates all detection sensors except the motion ones &#xD;&#xA;Away mode: The arming activates all detection sensors" base_Class="_0BTLgJvQEe2sZvZxpaqJZw"/>
+  <Requirements:Requirement xmi:id="_jhcb8JvSEe2sZvZxpaqJZw" base_NamedElement="_jhZ_sJvSEe2sZvZxpaqJZw" id="REQ-028" text="When an intrusion is detected, the system will fire the alarm" base_Class="_jhZ_sJvSEe2sZvZxpaqJZw"/>
+  <Requirements:Requirement xmi:id="_0LA2QJvSEe2sZvZxpaqJZw" base_NamedElement="_0K9L4JvSEe2sZvZxpaqJZw" id="REQ-029" text="When the alarm is fired, the siren will sound and a notification must be received by the householder on the app" base_Class="_0K9L4JvSEe2sZvZxpaqJZw"/>
+  <Requirements:Requirement xmi:id="_fXIiMJvTEe2sZvZxpaqJZw" base_NamedElement="_fXEQwJvTEe2sZvZxpaqJZw" id="REQ-0210" text="The security company or the police must call the house owner to verify the situation" base_Class="_fXEQwJvTEe2sZvZxpaqJZw"/>
+  <Requirements:Requirement xmi:id="_JAlhgJvUEe2sZvZxpaqJZw" base_NamedElement="_JAjFQJvUEe2sZvZxpaqJZw" id="REQ-0211" text="When the house owner is contacted by the security company or the police, he must say the watchword agreed upon" base_Class="_JAjFQJvUEe2sZvZxpaqJZw"/>
+  <Requirements:Requirement xmi:id="_93qP0JvUEe2sZvZxpaqJZw" base_NamedElement="_93nMgJvUEe2sZvZxpaqJZw" id="REQ-0213" text="Guards must be dispatched to the house after a confirmed intrusion" base_Class="_93nMgJvUEe2sZvZxpaqJZw"/>
+  <Requirements:Requirement xmi:id="_g9ETUJvVEe2sZvZxpaqJZw" base_NamedElement="_g9BQAJvVEe2sZvZxpaqJZw" id="REQ_0212" text="If the house owner doesn't respond to the call after the alarm was triggered,&#xD;&#xA;it is assumed it's not a false allarm&#xD;&#xA;" base_Class="_g9BQAJvVEe2sZvZxpaqJZw"/>
+  <Requirements:Requirement xmi:id="_mAyZ8JvXEe2sZvZxpaqJZw" base_NamedElement="_mAv9sJvXEe2sZvZxpaqJZw" id="REQ-032" text="When opening the door when the alarm is armed, there is an entry delay of 1 minute before the alarm is triggered." base_Class="_mAv9sJvXEe2sZvZxpaqJZw"/>
+  <Requirements:Requirement xmi:id="_6TbMsJvXEe2sZvZxpaqJZw" base_NamedElement="_6TYJYJvXEe2sZvZxpaqJZw" id="REQ-033" text="When the alarm is armed and a presence is detected, the alarm will be trigger within 1 second." base_Class="_6TYJYJvXEe2sZvZxpaqJZw"/>
+  <Requirements:Requirement xmi:id="_HANoYJvYEe2sZvZxpaqJZw" base_NamedElement="_HALMIJvYEe2sZvZxpaqJZw" id="REQ-034" text="When the alarm is triggered, a notification must be received by the house owner within 10 seconds on the app." base_Class="_HALMIJvYEe2sZvZxpaqJZw"/>
+  <Requirements:Requirement xmi:id="_RZfJUJvYEe2sZvZxpaqJZw" base_NamedElement="_RZctEJvYEe2sZvZxpaqJZw" id="REQ-035" text="After the alarm is triggered, within 1 minute, the security company must call the house owner" base_Class="_RZctEJvYEe2sZvZxpaqJZw"/>
+  <Requirements:Requirement xmi:id="_bkQ7QJvYEe2sZvZxpaqJZw" base_NamedElement="_bkPGEJvYEe2sZvZxpaqJZw" id="REQ-036" text="Security guards must be dispatched to the house within 5 minutes from the confirmation of the veracity of the alarm.&#xD;&#xA;" base_Class="_bkPGEJvYEe2sZvZxpaqJZw"/>
+  <Requirements:Requirement xmi:id="_HklEQJvZEe2sZvZxpaqJZw" base_NamedElement="_Hkgy0JvZEe2sZvZxpaqJZw" id="REQ-011" text="The sensors must be connected to the control panel" base_Class="_Hkgy0JvZEe2sZvZxpaqJZw"/>
+  <Requirements:Refine xmi:id="_Q3bvsJvZEe2sZvZxpaqJZw" base_DirectedRelationship="_Q3YsYJvZEe2sZvZxpaqJZw" base_Abstraction="_Q3YsYJvZEe2sZvZxpaqJZw"/>
+  <Requirements:Requirement xmi:id="_VNvooJvZEe2sZvZxpaqJZw" base_NamedElement="_VNtzcJvZEe2sZvZxpaqJZw" id="REQ-013" text="A keypad must be present on the control panel" base_Class="_VNtzcJvZEe2sZvZxpaqJZw"/>
+  <Requirements:Requirement xmi:id="_1HpZcJvZEe2sZvZxpaqJZw" base_NamedElement="_1HmWIJvZEe2sZvZxpaqJZw" id="REQ-014" text="The siren must be connected to the control panel" base_Class="_1HmWIJvZEe2sZvZxpaqJZw"/>
+  <Requirements:Requirement xmi:id="_78H98JvZEe2sZvZxpaqJZw" base_NamedElement="_78FhsJvZEe2sZvZxpaqJZw" id="REQ-015" text="The control panel must be connected to a control unit that make comunication with the security company" base_Class="_78FhsJvZEe2sZvZxpaqJZw"/>
+  <Requirements:Requirement xmi:id="_TJKFQJvaEe2sZvZxpaqJZw" base_NamedElement="_TJHB8JvaEe2sZvZxpaqJZw" id="REQ-016" text="The elements of the system are: &#xD;&#xA;Control Panel&#xD;&#xA;Control Unit&#xD;&#xA;App&#xD;&#xA;Remote Controller&#xD;&#xA;Sensors&#xD;&#xA;Siren" base_Class="_TJHB8JvaEe2sZvZxpaqJZw"/>
+  <Requirements:Requirement xmi:id="_MWtroJvbEe2sZvZxpaqJZw" base_NamedElement="_MWrPYJvbEe2sZvZxpaqJZw" id="REQ-0216" text="When the alarm is armed, the sytem must detect motion and it must fire the alarm" base_Class="_MWrPYJvbEe2sZvZxpaqJZw"/>
+  <Requirements:Requirement xmi:id="_am7B4JvbEe2sZvZxpaqJZw" base_NamedElement="_am3-kJvbEe2sZvZxpaqJZw" id="REQ-0217" text="The system must detect the opening of windows and doors." base_Class="_am3-kJvbEe2sZvZxpaqJZw"/>
+  <Requirements:Requirement xmi:id="_eQCEUJvgEe2sZvZxpaqJZw" base_NamedElement="_eP_BAJvgEe2sZvZxpaqJZw" id="REQ-0215" text="The control panel and the app should allow the visualization of the current state (open/close) of windows and doors" base_Class="_eP_BAJvgEe2sZvZxpaqJZw"/>
+  <Requirements:Requirement xmi:id="_53Ff4JvgEe2sZvZxpaqJZw" base_NamedElement="_53DDoJvgEe2sZvZxpaqJZw" id="REQ-018" text="The control panel has one led for each window and door" base_Class="_53DDoJvgEe2sZvZxpaqJZw"/>
+  <Requirements:Requirement xmi:id="_IN2xIJvhEe2sZvZxpaqJZw" base_NamedElement="_INzt0JvhEe2sZvZxpaqJZw" id="REQ-019" text="If a led is off, it means the respective window or door is close&#xD;&#xA;If a led is on, it means the respective window or door is open" base_Class="_INzt0JvhEe2sZvZxpaqJZw"/>
+  <Requirements:Refine xmi:id="_a-DgwJvhEe2sZvZxpaqJZw" base_DirectedRelationship="_a9_2YJvhEe2sZvZxpaqJZw" base_Abstraction="_a9_2YJvhEe2sZvZxpaqJZw"/>
+  <Requirements:Requirement xmi:id="_gKAfoJyOEe2Y3qHs8s61vQ" base_NamedElement="_gJhXcJyOEe2Y3qHs8s61vQ" id="REQ-0110" text="The security company must have an reference phone number provided by the house owner" base_Class="_gJhXcJyOEe2Y3qHs8s61vQ"/>
+  <Blocks:Block xmi:id="_REEhgKCPEe2PQLGvkuL8iA" base_Class="_RCnwAKCPEe2PQLGvkuL8iA"/>
+  <Blocks:Block xmi:id="__BnMMKCPEe2PQLGvkuL8iA" base_Class="__Ba-8KCPEe2PQLGvkuL8iA"/>
+  <Blocks:Block xmi:id="_bPn6EKCQEe2PQLGvkuL8iA" base_Class="_bPbs0KCQEe2PQLGvkuL8iA"/>
+  <Blocks:Block xmi:id="_fWQYQKCQEe2PQLGvkuL8iA" base_Class="_fWELAKCQEe2PQLGvkuL8iA"/>
+  <Blocks:Block xmi:id="_gr58kKCQEe2PQLGvkuL8iA" base_Class="_grxZsKCQEe2PQLGvkuL8iA"/>
+  <Blocks:Block xmi:id="_jm2qwKCQEe2PQLGvkuL8iA" base_Class="_jmvWAKCQEe2PQLGvkuL8iA"/>
+  <Blocks:Block xmi:id="_k-kEkKCQEe2PQLGvkuL8iA" base_Class="_k-cv0KCQEe2PQLGvkuL8iA"/>
+  <Blocks:Block xmi:id="_mn72IKCQEe2PQLGvkuL8iA" base_Class="_mnz6UKCQEe2PQLGvkuL8iA"/>
+  <Blocks:Block xmi:id="_omDIoKCQEe2PQLGvkuL8iA" base_Class="_ol6lwKCQEe2PQLGvkuL8iA"/>
+  <Blocks:Block xmi:id="_qc8_4KCQEe2PQLGvkuL8iA" base_Class="_qc1EEKCQEe2PQLGvkuL8iA"/>
+  <Blocks:Block xmi:id="_ubJ60KCQEe2PQLGvkuL8iA" base_Class="_ubBX8KCQEe2PQLGvkuL8iA"/>
+  <Blocks:Block xmi:id="_AmcfMKCUEe2PQLGvkuL8iA" base_Class="_AmSuMKCUEe2PQLGvkuL8iA"/>
+  <Requirements:Requirement xmi:id="_jX99YKCUEe2PQLGvkuL8iA" base_NamedElement="_jX2BkKCUEe2PQLGvkuL8iA" id="REQ-017" text="The controller unit has an antenna that provides a good connection to the security company" base_Class="_jX2BkKCUEe2PQLGvkuL8iA"/>
+  <Blocks:Block xmi:id="_aNUWQKCVEe2PQLGvkuL8iA" base_Class="_aNLMUKCVEe2PQLGvkuL8iA"/>
+  <Blocks:Block xmi:id="_a93CYKCVEe2PQLGvkuL8iA" base_Class="_a9vGkKCVEe2PQLGvkuL8iA"/>
+  <Blocks:Block xmi:id="_bZJQMKCVEe2PQLGvkuL8iA" base_Class="_bZBUYKCVEe2PQLGvkuL8iA"/>
+  <Blocks:Block xmi:id="_b13BYKCVEe2PQLGvkuL8iA" base_Class="_b1vFkKCVEe2PQLGvkuL8iA"/>
+  <Blocks:Block xmi:id="_i0ZO4KCXEe2PQLGvkuL8iA" base_Class="_i0RTEKCXEe2PQLGvkuL8iA"/>
+  <Blocks:Block xmi:id="_e_UzEKCdEe2PQLGvkuL8iA" base_Class="_e_SW0KCdEe2PQLGvkuL8iA"/>
+  <Requirements:DeriveReqt xmi:id="_PmSowKOsEe2r_60dRCK1ZA" base_DirectedRelationship="_Pl8qgKOsEe2r_60dRCK1ZA" base_Abstraction="_Pl8qgKOsEe2r_60dRCK1ZA"/>
+  <Blocks:Block xmi:id="_hQ0w0KOsEe2r_60dRCK1ZA" base_Class="_hQuqMKOsEe2r_60dRCK1ZA"/>
+  <Requirements:Refine xmi:id="_ab8HMKOtEe2r_60dRCK1ZA" base_DirectedRelationship="_aby9QKOtEe2r_60dRCK1ZA" base_Abstraction="_aby9QKOtEe2r_60dRCK1ZA"/>
+  <Requirements:DeriveReqt xmi:id="_2BGFUKOtEe2r_60dRCK1ZA" base_DirectedRelationship="_2BDCAKOtEe2r_60dRCK1ZA" base_Abstraction="_2BDCAKOtEe2r_60dRCK1ZA"/>
+  <Requirements:Satisfy xmi:id="__aA8gKOtEe2r_60dRCK1ZA" base_DirectedRelationship="__Z4ZoKOtEe2r_60dRCK1ZA" base_Abstraction="__Z4ZoKOtEe2r_60dRCK1ZA"/>
+  <Requirements:Satisfy xmi:id="_AlTD4KOuEe2r_60dRCK1ZA" base_DirectedRelationship="_AlMWMKOuEe2r_60dRCK1ZA" base_Abstraction="_AlMWMKOuEe2r_60dRCK1ZA"/>
+  <Requirements:DeriveReqt xmi:id="_OyfiYKOuEe2r_60dRCK1ZA" base_DirectedRelationship="_OyY0sKOuEe2r_60dRCK1ZA" base_Abstraction="_OyY0sKOuEe2r_60dRCK1ZA"/>
+  <Requirements:Requirement xmi:id="_JmrvYKOvEe2r_60dRCK1ZA" base_NamedElement="_JmoFAKOvEe2r_60dRCK1ZA" id="REQ-0214" text="When the alarm is triggered, a signal must be sent to the security company" base_Class="_JmoFAKOvEe2r_60dRCK1ZA"/>
+  <Requirements:DeriveReqt xmi:id="_eHpSAKOvEe2r_60dRCK1ZA" base_DirectedRelationship="_eHh9QKOvEe2r_60dRCK1ZA" base_Abstraction="_eHh9QKOvEe2r_60dRCK1ZA"/>
+  <Requirements:Requirement xmi:id="_wNyYAKOvEe2r_60dRCK1ZA" base_NamedElement="_wNvUsKOvEe2r_60dRCK1ZA" id="REQ-0218" text="The system must be able to detect when an intrusion has occured" base_Class="_wNvUsKOvEe2r_60dRCK1ZA"/>
+  <Requirements:DeriveReqt xmi:id="_ItoLAKOwEe2r_60dRCK1ZA" base_DirectedRelationship="_IthdUKOwEe2r_60dRCK1ZA" base_Abstraction="_IthdUKOwEe2r_60dRCK1ZA"/>
+  <Requirements:DeriveReqt xmi:id="_NA26wKOwEe2r_60dRCK1ZA" base_DirectedRelationship="_NAw0IKOwEe2r_60dRCK1ZA" base_Abstraction="_NAw0IKOwEe2r_60dRCK1ZA"/>
+  <Requirements:DeriveReqt xmi:id="_av8g8KOwEe2r_60dRCK1ZA" base_DirectedRelationship="_av1zQKOwEe2r_60dRCK1ZA" base_Abstraction="_av1zQKOwEe2r_60dRCK1ZA"/>
+</xmi:XMI>
