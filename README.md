@@ -1,4 +1,4 @@
-# Modelling an Home Alarm System 
+# Modelling a Home Alarm System 
 Modelling exercise with SysML
 
 # Description
