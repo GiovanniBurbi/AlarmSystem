@@ -16,6 +16,6 @@ This development process fits within the context of Model-Driven Engineering, wh
 The graphic tools used for the creation of the diagrams are Eclipse Papyrus and Visual Paradigm Online.
 While Oris 1 has been used to create the petri net.
 
-For more details about the exercise and the process used you can refer to the short [report](https://github.com/GiovanniBurbi/AlarmSystem/blob/main/AlarmSistemModellingReport.pdf).
+For more details about the exercise and the process used you can refer to the short [report](https://github.com/GiovanniBurbi/AlarmSystem/blob/main/AlarmSystemModellingReport.pdf).
 
 To open the files in the VisualParadigmOnline folder, use the [Visual Paradigm Online](https://online.visual-paradigm.com/) web site.
