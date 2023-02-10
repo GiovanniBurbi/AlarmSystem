@@ -336,13 +336,13 @@ Home or Away</body>
             <body>true</body>
           </specification>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_Qb7TwKS-Ee2aE8D4k6nItA" name="Only door opening signal" constrainedElement="_pJXTUKS9Ee2aE8D4k6nItA">
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_Qb7TwKS-Ee2aE8D4k6nItA" name="Only door open signal when alarm is armed" constrainedElement="_pJXTUKS9Ee2aE8D4k6nItA">
           <specification xmi:type="uml:OpaqueExpression" xmi:id="_Qb8h4KS-Ee2aE8D4k6nItA" name="constraintSpec">
             <language>OCL</language>
             <body>true</body>
           </specification>
         </ownedRule>
-        <ownedRule xmi:type="uml:Constraint" xmi:id="_1liDoKS-Ee2aE8D4k6nItA" name="When alarm is armed" constrainedElement="_ohnhYKS-Ee2aE8D4k6nItA">
+        <ownedRule xmi:type="uml:Constraint" xmi:id="_1liDoKS-Ee2aE8D4k6nItA" name="When alarm is armed and it's window signal" constrainedElement="_ohnhYKS-Ee2aE8D4k6nItA">
           <specification xmi:type="uml:OpaqueExpression" xmi:id="_1liqsKS-Ee2aE8D4k6nItA" name="constraintSpec">
             <language>OCL</language>
             <body>true</body>
